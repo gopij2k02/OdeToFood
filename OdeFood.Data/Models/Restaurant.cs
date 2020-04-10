@@ -7,7 +7,7 @@ namespace OdeFood.Data.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        [Display(Name = "Type of food")]
+        [Display(Name = "Type of food")]// Used to display this name in the view model
         public CuisineType Cuisine { get; set; }
     }
 }
